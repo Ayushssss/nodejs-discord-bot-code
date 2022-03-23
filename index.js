@@ -13,7 +13,7 @@ let Discord = require("discord.js");
 let client = new Discord.Client();
 
 client.on("ready", () => {
-	client.user.setPresence({ activity: { name: "Amoung Us"}})
+	client.user.setPresence({ activity: { name: "Playing Amoung Us"}})
 })
 
 client.on("guildMemberAdd", member => {
